@@ -206,6 +206,17 @@ Verify for 5 minutes before considering deploy successful:
 6. Review: post-mortem within 48 hours for SEV1/SEV2
 7. Prevent: update runbooks, tests, monitoring
 
+## Branch promotion rule
+
+Before any code reaches production, it must flow through the `dev` branch:
+
+1. Push all changes to `dev` first.
+2. If `dev` does not exist, create it from `main`.
+3. Verify the change on `dev` with tests, smoke checks, and review.
+4. Do not push directly to `main`.
+5. Before merging `dev` into `main`, stop and ask the user for explicit confirmation.
+6. Only after user approval, promote `dev` to `main`.
+
 ## Red Flags
 
 **Never:**
