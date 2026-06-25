@@ -2,7 +2,7 @@
 
 Superskills is a complete software-development methodology for your coding agents, built on top of a set of composable skills and a small bootstrap that makes sure your agent uses them.
 
-It works across Claude Code, Codex CLI, Codex App, Cursor, OpenCode, Gemini CLI, GitHub Copilot CLI, and Factory Droid.
+It works across Claude Code, Codex CLI, Codex App, Cursor, OpenCode, Gemini CLI, and GitHub Copilot CLI.
 
 ## Quickstart
 
@@ -15,7 +15,6 @@ Install Superskills in the harness you use:
 - [OpenCode](#opencode)
 - [Gemini CLI](#gemini-cli)
 - [GitHub Copilot CLI](#github-copilot-cli)
-- [Factory Droid](#factory-droid)
 
 ## How it works
 
@@ -175,13 +174,6 @@ gemini extensions update superskills  # (in progress)
 ```bash
 copilot plugin marketplace add pisigmac/Superskills-marketplace  # (in progress)
 copilot plugin install superskills@superskills-marketplace       # (in progress)
-```
-
-### Factory Droid
-
-```bash
-droid plugin marketplace add https://github.com/pisigmac/Superskills  # (in progress)
-droid plugin install superskills@superskills                          # (in progress)
 ```
 
 ## Contributing
