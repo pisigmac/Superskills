@@ -194,7 +194,7 @@ MIT License — see the [`LICENSE`](LICENSE) file for details.
 
 Superskills is built by [pisigmac](https://github.com/pisigmac/Superskills).
 
-- **Discord**: [Join us]([DISCORD_INVITE_URL]) for community support, questions, and sharing what you are building with Superskills.
+- **Discord**: [Join us](https://discord.gg/WCYmkBbtus) for community support, questions, and sharing what you are building with Superskills.
 - **Issues**: https://github.com/pisigmac/Superskills/issues
 - **Release announcements**: [Sign up](https://github.com/pisigmac/Superskills/releases) to get notified about new versions.
 
