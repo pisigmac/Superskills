@@ -87,7 +87,7 @@ Read [the original release announcement]([RELEASE_POST_URL]).
 
 ## Installation
 
-Install Superskills separately for each harness you use.
+Install Superskills separately for each harness you use. Where a harness supports installing directly from a Git URL, the command is shown below. Official marketplace listings are still in progress.
 
 ### Claude Code
 
@@ -106,6 +106,12 @@ Superskills is available on the [official Claude plugin marketplace]([CLAUDE_MAR
 /plugin install superskills@superskills-marketplace      # (in progress)
 ```
 
+**Install directly from this repo:**
+
+```bash
+/plugin install https://github.com/pisigmac/Superskills
+```
+
 ### Codex CLI
 
 Superskills is available on the [official Codex plugin marketplace](https://github.com/openai/plugins) *(in progress)*.
@@ -115,6 +121,12 @@ Superskills is available on the [official Codex plugin marketplace](https://gith
 ```
 
 Search for `superskills` and select `Install Plugin` *(in progress)*.
+
+**Install directly from this repo:**
+
+```bash
+codex plugin install https://github.com/pisigmac/Superskills
+```
 
 ### Codex App
 
@@ -126,10 +138,10 @@ Superskills is available on the [official Codex plugin marketplace](https://gith
 
 ### Cursor
 
-In Cursor Agent chat *(in progress)*:
+Install directly from this repo *(in progress)*:
 
 ```text
-/add-plugin superskills  # (in progress)
+/add-plugin https://github.com/pisigmac/Superskills
 ```
 
 Or search for "superskills" in the plugin marketplace *(in progress)*.

@@ -1,0 +1,20 @@
+{
+  "name": "superskills",
+  "version": "5.1.0",
+  "description": "Complete software-development methodology for coding agents: TDD, debugging, collaboration patterns, and a feature-factory pipeline.",
+  "author": {
+    "name": "pisigmac",
+    "url": "https://github.com/pisigmac"
+  },
+  "repository": "https://github.com/pisigmac/Superskills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "tdd",
+    "planning",
+    "code-review",
+    "feature-factory",
+    "agent-workflow"
+  ],
+  "skills": ["skills/"]
+}
