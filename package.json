@@ -1,0 +1,6 @@
+{
+  "name": "superskills",
+  "version": "5.1.0",
+  "type": "module",
+  "main": ".opencode/plugins/superskills.js"
+}
