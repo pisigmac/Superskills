@@ -196,8 +196,7 @@ Superskills is built by [pisigmac](https://github.com/pisigmac/Superskills).
 
 ## Sponsorship
 
-If Superskills has helped you do something that makes money and you are so inclined, please consider [sponsoring my open-source work](https://razorpay.me/
-@pisigma).
+If Superskills has helped you do something that makes money and you are so inclined, please consider [sponsoring my open-source work](https://razorpay.me/@pisigma).
 
 Thanks!
 
