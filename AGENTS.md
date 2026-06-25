@@ -23,6 +23,7 @@ Superskills is a software-development methodology distributed as a plugin for co
 ```
 assets/           # App icon and logo
   app-icon.png
+  app-icon.svg
   superskills-small.svg
 
 docs/             # Human and agent documentation

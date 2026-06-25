@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shield / badge background -->
+  <path d="M512 64 L896 224 V512 C896 736 736 896 512 960 C288 896 128 736 128 512 V224 Z"
+        fill="url(#bg)"
+        stroke="#3730a3"
+        stroke-width="24"
+        stroke-linejoin="round"/>
+
+  <!-- Lightning bolt -->
+  <path d="M560 192 L368 480 H496 L464 704 L688 384 H528 Z"
+        fill="url(#bolt)"
+        stroke="#ffffff"
+        stroke-width="16"
+        stroke-linejoin="round"
+        stroke-linecap="round"/>
+
+  <!-- Subtle gear ring (skills) -->
+  <circle cx="512" cy="512" r="416"
+          fill="none"
+          stroke="rgba(255,255,255,0.25)"
+          stroke-width="16"
+          stroke-dasharray="48 48"/>
+</svg>
