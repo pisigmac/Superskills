@@ -163,6 +163,14 @@ Skills are behavior-shaping code, not prose. If you modify a skill:
 3. Show before/after eval results in your PR.
 4. Do not modify carefully-tuned content without evidence the change is an improvement.
 
+## Deployment and branch rules
+
+- All code changes must be pushed to the `dev` branch first.
+- If the `dev` branch does not exist, create it from `main` before pushing.
+- Do not push directly to `main`.
+- Before merging `dev` into `main`, stop and ask the user for explicit confirmation.
+- Show the user the diff and wait for their approval before any `main` promotion.
+
 ## General rules
 
 - Read `CLAUDE.md` for the full contributor guidelines.
